@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Roboto+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+   
+    /* display: flex; */
+}
+body{
+    font-family: 'Martian Mono', monospace;
+    
+
+    background: url('./images/fading-blue-background.jpg');
+}
+
+
