@@ -11,7 +11,7 @@ export default function LastPage() {
     //synthetic event
       //fetching data from url 
       
-      fetch("/submit", {
+      fetch("https://code-alpha-survey-form-tan.vercel.app/submit", {
           method: 'POST',
           headers: {
               'Content-Type': 'application/json'
