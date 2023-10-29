@@ -21,7 +21,8 @@ const mongoose = require('mongoose');
 
 
 
-const uri=`mongodb+srv://senjade:sen123@cluster0.3g1qzo8.mongodb.net/user?retryWrites=true&w=majority`
+const uri=`mongodb+srv://senjade:sen123@cluster0.3g1qzo8.mongodb.net/newdatabase?retryWrites=true&w=majority
+`
 
 
 mongoose.connect(uri)

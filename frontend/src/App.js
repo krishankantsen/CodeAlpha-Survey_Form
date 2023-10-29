@@ -5,6 +5,7 @@ import { Routes } from "react-router-dom";
 import LastPage from "./LastPage";
 import Ques from "./Ques";
 import ThankYou from "./ThankYou";
+import AD from "./AD";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/ques" element={<Ques />} />
 
       <Route path="/lastpage" element={<LastPage />} />
+      <Route path="/alreadydone" element={<AD/>} />
     </Routes>
   );
 }
